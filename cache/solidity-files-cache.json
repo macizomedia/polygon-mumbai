@@ -1,0 +1,76 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/mmcs/polygon-mumbai/contracts/basicContract.sol": {
+      "lastModificationDate": 1647387329463,
+      "contentHash": "d606b1d83db43a6e139b4c8f6fdf2fe0",
+      "sourceName": "contracts/basicContract.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    },
+    "/home/mmcs/polygon-mumbai/contracts/mappingSample.sol": {
+      "lastModificationDate": 1647387783135,
+      "contentHash": "690a4276f0d1ea58e5abea0d7c053909",
+      "sourceName": "contracts/mappingSample.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "Mapping_mmcs",
+        "NestedMapping"
+      ]
+    }
+  }
+}
